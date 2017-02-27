@@ -12,6 +12,8 @@
 		5C960DDA1E5A79EF0013D18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C960DD81E5A79EF0013D18B /* Main.storyboard */; };
 		5C960DDC1E5A79EF0013D18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C960DDB1E5A79EF0013D18B /* Assets.xcassets */; };
 		5C960DDF1E5A79EF0013D18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C960DDD1E5A79EF0013D18B /* LaunchScreen.storyboard */; };
+		5C960DE71E5A7F030013D18B /* ParallaxHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C960DE61E5A7F030013D18B /* ParallaxHeaderView.swift */; };
+		5C960DE91E5A80C80013D18B /* NavgationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C960DE81E5A80C80013D18B /* NavgationBarExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C960DDB1E5A79EF0013D18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C960DDE1E5A79EF0013D18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C960DE01E5A79EF0013D18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C960DE61E5A7F030013D18B /* ParallaxHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderView.swift; sourceTree = "<group>"; };
+		5C960DE81E5A80C80013D18B /* NavgationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavgationBarExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5C960DDB1E5A79EF0013D18B /* Assets.xcassets */,
 				5C960DDD1E5A79EF0013D18B /* LaunchScreen.storyboard */,
 				5C960DE01E5A79EF0013D18B /* Info.plist */,
+				5C960DE61E5A7F030013D18B /* ParallaxHeaderView.swift */,
+				5C960DE81E5A80C80013D18B /* NavgationBarExtension.swift */,
 			);
 			path = "JYTable+Nav";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				5C960DD71E5A79EF0013D18B /* ViewController.swift in Sources */,
 				5C960DD51E5A79EF0013D18B /* AppDelegate.swift in Sources */,
+				5C960DE71E5A7F030013D18B /* ParallaxHeaderView.swift in Sources */,
+				5C960DE91E5A80C80013D18B /* NavgationBarExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
